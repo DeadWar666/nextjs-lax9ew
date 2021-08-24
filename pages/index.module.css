@@ -1,0 +1,35 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 50% 1fr 1fr 1fr 1fr;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.25rem 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.header div {
+  padding: 0.25rem;
+}
+
+.header div:nth-child(2) {
+  text-align: left;
+}
+
+.cabeca {
+  background-color: black;
+}
+
+.titulo {
+  color: white;
+  text-align: center;
+}
+
+.filter {
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  display: grid;
+  margin-right: 40%;
+  margin-left: 40%;
+}
